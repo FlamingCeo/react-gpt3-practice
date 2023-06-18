@@ -1,0 +1,92 @@
+.gpt3__cta-background {
+  font-family: var(--font-family);
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  /* width: 100%;
+  height: 100%; */
+  background: var(--gradient-text);
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10.7236px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4rem;
+  padding: 2rem;
+}
+.gpt3__cta-title {
+  display: flex;
+  flex-direction: column;
+}
+.gpt3__cta-small-title {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+  /* or 250% */
+
+  color: #0e0e0e;
+}
+
+.gpt3__cta-small-title-2 {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 45px;
+  /* or 188% */
+
+  color: #000000;
+}
+
+.gpt3__cta-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 2rem;
+}
+.gpt3__cta-button button {
+  width: 189.14px;
+  height: 59.4px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+
+  background: #000000;
+  border-radius: 40px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 800px) {
+  .gpt3__cta-background {
+    flex-direction: column;
+  }
+  .gpt3__cta-small-title-2 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .gpt3__cta-background {
+    margin: 0 2rem 0;
+
+    /* If the margin property has three values:
+
+        margin: 25px 50px 75px;
+        top margin is 25px
+        right and left margins are 50px
+        bottom margin is 75px */
+    flex-direction: column;
+  }
+  .gpt3__cta-small-title-2 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .gpt3__cta-small-title {
+    font-size: 11px;
+    line-height: 20px;
+  }
+  .gpt3__cta-button {
+    margin-left: 0rem;
+    margin-top: 1rem;
+    font-size: 14px;
+  }
+}
